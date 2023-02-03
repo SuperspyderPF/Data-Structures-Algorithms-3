@@ -1,0 +1,1 @@
+averageValue=n=>{x=0;v=n.filter(x=>(x%2==0&&x%3==0));if(v.length==0){return 0};y=v.length;for(i=0;i<v.length;i++){x+=v[i];}return Math.floor(x/y);}
